@@ -258,7 +258,7 @@ function addProperty(array) {
 
 console.log("Завдання 14 ====================================");
 // Створимо масив newArr з новою властивістю за допомогої нашої функції в яку передамо [1, 2, 3, 4, 5]
-const newArr = [1, 2, 3, 4, 5];
+const newArr = addProperty([1, 2, 3, 4, 5]);
 
 // Розкоментуйте рядок нижче після виконня завдання для перевірки
  console.log(newArr.customProperty); // Виведе myProperty
